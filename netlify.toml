@@ -1,0 +1,17 @@
+# netlify.toml
+
+[build]
+  command = "npm run build"  # The build command for the Vue.js project
+  publish = "public"  # The directory where the built files are located
+
+[[redirects]]
+  from = "/*"  # All routes redirected to index.html
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"  # Headers for all routes
+    [headers.values]
+    Access-Control-Allow-Origin = "*"  # Header setting
+
+# Add any additional sections or settings as needed
