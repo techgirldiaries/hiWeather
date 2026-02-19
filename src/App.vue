@@ -32,7 +32,7 @@ export default {
   name: 'app',
   data () {
     return {
-      api_key: '72d3ff62f4ec547714c92c3b8cbd06c3',
+      api_key: 'process.env.WEATHER_APP_ANON_KEY',
       url_base: "https://api.openweathermap.org/data/2.5/",
       query: '',
       weather: {}
