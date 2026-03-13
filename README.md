@@ -1,4 +1,4 @@
-# TGD Weather App
+# hiWeather App
 
 <img src="https://i.ibb.co/4sPMDMd/hhw-weather-app.png" alt="Vue ShowTheWeather Application" width="600" height="400"/>
 
