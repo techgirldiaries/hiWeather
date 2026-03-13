@@ -11,7 +11,7 @@
 
 [[headers]]
   for = "/*"  # Headers for all routes
-    [headers.values]
+     [headers.values]
     Access-Control-Allow-Origin = "*"  # Header setting
 
 # Add any additional sections or settings as needed
